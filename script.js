@@ -1,6 +1,6 @@
 // Substitua com os dados de Project Settings > API do seu Supabase
-const SUPABASE_URL = 'https://SUA_URL_DO_SUPABASE.supabase.co';
-const SUPABASE_KEY = 'SUA_CHAVE_ANON_PUBLIC';
+const SUPABASE_URL = 'https://saqixjekadycvnhjlhwr.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_o_Uop2YPSZxkEBdb8VLTBg_bXze4MN_';
 
 const _supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 const form = document.getElementById('form-inscricao');
