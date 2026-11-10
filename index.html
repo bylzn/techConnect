@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TechConnect</title>
+</head>
+
+<body>
+    <div class="back-ground2">
+        <div class="logo">
+            <img class="imagem" src="IMG_CSS-1/WhatsApp Image 2025-05-28 at 22.29.06.jpeg" alt="logo Techconnect">
+            <h1>TechConnect Summit</h1>
+        </div>
+
+        <div class="back-ground">
+            <br><br>
+
+            <fieldset class="campo_resumo">
+                <p class="resumo">
+                    <b>Nós, da techconnect, uma startup no mercado tecnológico, anualmente <br>
+                    organizamos um evento destinado a área da tecnologia, e esse ano não <br>
+                    será diferente. Estamos planejando um evento para discutir sobre <br>
+                    tendências tecnológicas com a participação de devs e designers experientes na área. <br>
+                    contamos com a sua presença!</b>
+                </p>
+
+                <div class="evento-info">
+                    <h2>Informações do evento</h2>
+                    <ul>
+                        <li>Data - 23/06 </li>
+                        <li>Hora - 15:00 &gt; 19:00</li>
+                        <li>Local - Centro de convenções no bairro de Boca do Rio</li>
+                        <li>localização - <a href="https://maps.app.goo.gl/pqA3VNLoPwHy8UNR9" target="_blank">Centro de Convenções de Salvador</a></li>
+                    </ul>
+                </div>
+            </fieldset>
+
+            <h2 class="classe1">Palestrantes</h2>
+
+            <div class="galeria">
+                <fieldset class="IMG_CSS">
+                    <img class="IMG_CSS-1" src="IMG_CSS-1/66e723e4d16e6e47877e9306a9a22339.jpg" alt="imagem do palestrante Flávio Rocha" width="200" height="200">
+                    <br><br>
+                    <div class="font-2">
+                        <strong>Flávio Rocha</strong>
+                    </div>
+                    <br>
+                    <div class="font">
+                        é um especialista renomado e amante da <br> tecnologia, que vem trabalhando na <br> área a mais de 8 anos. Conhecido por <br> converter assuntos complexos em simples.
+                    </div>
+                </fieldset>
+
+                <fieldset class="IMG_CSS-2">
+                    <img class="IMG_CSS-1" src="IMG_CSS-1/62972dabd73e265365a904466a.jpg" alt="imagem do palestrante José Freitas" width="200" height="200">
+                    <br><br>
+                    <div class="font-2">
+                        <strong>José Freitas</strong>
+                    </div>
+                    <br>
+                    <div class="font">
+                        já atuou em diversas áreas da tecnologia em <br> grandes empresas e é especialista em <br> desenvolvimento de software. é aclamado por sua <br> habilidade em resolver problemas complexos <br> e por sua fluidez em ensinar os outros. <br><br>
+                    </div>
+                </fieldset>
+
+                <fieldset class="IMG_CSS-3">
+                    <img class="IMG_CSS-1" src="IMG_CSS-1/img_palestrante-mulher.jpg" alt="imagem da palestrante Helena Dias" width="200" height="200">
+                    <br><br>
+                    <div class="font-2">
+                        <strong>Helena Dias</strong>
+                    </div>
+                    <br>
+                    <div class="font">
+                        é uma especialista em design de interfaces e <br> experiência do usuário, com mais de 10 anos de <br> experiência na área. Ela é conhecida por sua <br> abordagem inovadora e criativa para o design, e <br> por sua capacidade de criar experiências <br> de usuário envolventes e intuitivas. <br><br>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+
+        <br><br>
+    </div>
+
+    <footer>
+        <fieldset class="campo_inscricao">
+            <h2 class="inscricao">Formulário de Inscrição</h2>
+
+            <!-- TAG <FORM> ADICIONADA AQUI -->
+            <form id="form-inscricao">
+                <fieldset class="coleta_dados">
+                    <legend>Coleta de Dados:</legend>
+                    <label for="nome"><b>Nome:</b></label>
+                    <input type="text" name="name" id="nome" required>
+
+                    <br><br>
+                    <label for="email"><b>E-mail</b></label>
+                    <input type="email" name="email" id="email" required>
+
+                    <br><br>
+                    <label><b>Tipo de Ingresso: </b></label>
+                    <input type="radio" name="op" id="op1" value="presencial" required>
+                    <label for="op1">presencial</label>
+                    <input type="radio" name="op" id="op2" value="online" required>
+                    <label for="op2">online</label>
+                    <br><br>
+
+                    <label for="termo"><b>Ao confirmar, você estará concordando com nossos termos e condições - </b></label>
+                    <a href="https://policies.google.com/?hl=pt-BR" target="_blank">Ler Termos</a> <br><br>
+                    
+                    <input type="checkbox" name="termo" id="termo" required>
+                    <label for="termo">eu concordo</label>
+
+                    <br><br>
+                    <input type="submit" name="botao" id="botao" value="Inscrever-se">
+                </fieldset>
+            </form>
+
+        </fieldset>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
